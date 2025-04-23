@@ -1,2 +1,11 @@
 DreamCMS has an arbitrary SQL execution vulnerability
+
 Vulnerability description:
+You can upload any SQL file and execute the SQL statements in it.
+
+Supplier:https://gitee.com/hackchen/dreamer_cms/tree/Previous_Releases_4.1.3/
+
+Code Analysis:
+1.Controllable files parameters in line 83
+cc/iteachyou/cms/controller/admin/DataBaseController.java
+
